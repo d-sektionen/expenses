@@ -24,7 +24,7 @@ class Output extends Component{
       <div className="Output">
         <code ref={(elem) => {this.outputElem = elem}}>{`${origin}${pathname}?output=${output}`}</code>
         <div className="button-group">
-          <a href="" ref={(elem) => {this.copyButton = elem}}>
+          <a href="#" ref={(elem) => {this.copyButton = elem}}>
             Kopiera länk  
           </a>
         </div>
